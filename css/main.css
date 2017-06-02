@@ -3,5 +3,40 @@ body {
   font-size: 16px;
   line-height: 1.71429;
   background-color: #fff;
+  font-family: 'Raleway', sans-serif;
   /* Enlaza la tipografia Open Sans */
+}
+
+.link {
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+	color: #2A2A2A;
+
+}
+
+.flex-container{
+	display: flex;
+}
+
+.menu{
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.menu.flex-container{
+	justify-content: flex-start;
+}
+
+.logo-container{
+	margin-left: auto;
+	margin-right: 20px;
+}
+
+.flex-container .logo{
+	width: 70px;
+	height: 70px;
 }
