@@ -1,42 +1,81 @@
 body {
+  font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.71429;
   background-color: #fff;
-  font-family: 'Raleway', sans-serif;
   /* Enlaza la tipografia Open Sans */
 }
 
-.link {
-	display: inline-block;
-	padding: 20px;
-	text-decoration: none;
-	color: #2A2A2A;
+a{
+ color: #373B47;
+ text-decoration: none;
+}
+
+a:hover{
+ color: #E95853;
+}
+
+#home{
+	height: 600px;
+	margin-top: 70px;
+
+	background-image: url(../assets/images/bg-home.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	color: whitesmoke;
+}
+
+/*services*/
+
+#services{
+	background-color: #F17C72;
+	text-align: center;
+	color: #fff;
+	padding: 70px;
+}
+
+#services.flex-container{
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+footer{
+	background-color: #373B47;
+	color: whitesmoke;
+ 	text-align: center;
+ 	height: 70px;
+ 	padding-top: 7px;
 
 }
 
-.flex-container{
-	display: flex;
+#work.flex-container{
+	align-items: flex-start;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 50px;
 }
 
-.menu{
-	background-color: white;
-	position: fixed;
-	top: 0;
-	left: 0;
+img{
 	width: 100%;
 }
 
-.menu.flex-container{
-	justify-content: flex-start;
+i{
+	background-color: whitesmoke;
 }
 
-.logo-container{
-	margin-left: auto;
-	margin-right: 20px;
+#imagenes.flex-container{  
+
+flex-direction: row;
+justify-content: center;
+
 }
 
-.flex-container .logo{
-	width: 70px;
-	height: 70px;
-}
